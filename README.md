@@ -9,9 +9,9 @@ N-Queens Genetic Algorithm (C++)
 - Select the top `sel_size` boards based on a fitness function (count no. of pairs of non-attacking queens).
 - With a small probability `weak_prob` of randomly selecting a weak offspring.
 
-3) Cross over
-- From the selected boards, perform "cross over" by randomly selecting a pair of boards and a cross-over location.
-- For example, `[0 3 4 1 2]` and `[0 4 2 3 1]` can cross over at the index 1 to become `[0 3 2 3 1]`.
+3) Crossover
+- From the selected boards, perform "crossover" by randomly selecting a pair of boards and a cross-over location.
+- For example, `[0 3 4 1 2]` and `[0 4 2 3 1]` can crossover at the index 1 to become `[0 3 2 3 1]`.
 
 4) Mutation
 
