@@ -180,7 +180,7 @@ int main(){
     
     //////// Parameters ////////
     // Set dimension of board NxN
-    int N=25;
+    int N=20;
     cout << "N = " << N << endl;
     // Fixed population size
     int pop_size = N*1000;
