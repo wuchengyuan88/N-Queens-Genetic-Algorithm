@@ -189,7 +189,7 @@ int main(){
     // Probability of randomly including weak offspring in selection
     float weak_prob = 0.3;
     // Mutation probability
-    float prob = 0.1;
+    float prob = 0.3;
     // Maximation generations to iterate
     int gen_max = 1000;
     ////////////////////////////
