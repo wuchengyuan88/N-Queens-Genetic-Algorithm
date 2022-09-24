@@ -10,7 +10,7 @@ N-Queens Genetic Algorithm (C++)
 - With a small probability `weak_prob` of randomly selecting a weak offspring.
 
 3) Crossover
-- From the selected boards, perform "crossover" by randomly selecting a pair of boards and a cross-over location.
+- From the selected boards, perform "crossover" by randomly selecting a pair of boards and a crossover location.
 - For example, `[0 3 4 1 2]` and `[0 4 2 3 1]` can crossover at the index 1 to become `[0 3 2 3 1]`.
 
 4) Mutation
