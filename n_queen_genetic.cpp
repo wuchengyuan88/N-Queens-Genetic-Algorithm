@@ -102,7 +102,7 @@ const int &sel_size, const float &weak_prob){
     for (int i=1; i<=sel_size; i++){
         float r = static_cast <float> (rand()) / static_cast <float> (RAND_MAX);
         if (r<weak_prob){
-            // randomly select a possibility weak offspring
+            // randomly select a weak offspring
             vector<int> weak_board = sort_vect[rand() % sort_len].second;
             selected_pop.push_back(weak_board);
             //cout << "Weak offspring selected" << endl;
@@ -190,7 +190,7 @@ int main(){
     float weak_prob = 0.3;
     // Mutation probability
     float prob = 0.3;
-    // Maximation generations to iterate
+    // Maximum generations to iterate
     int gen_max = 1000;
     ////////////////////////////
 
